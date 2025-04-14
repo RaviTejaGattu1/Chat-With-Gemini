@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: #1a73e8;
+}
+textarea {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1557b0;
+}
+
+#chart_div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
