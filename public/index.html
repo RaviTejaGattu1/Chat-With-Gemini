@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <img src="gemini-logo.png" alt="Gemini Logo" style="height: 50px;">
+    <label>Prompt:</label><br>
+    <textarea id="prompt" rows="5" cols="50"></textarea><br>
+    <button id="send-btn">Send</button>
+    <button id="cancel-btn">Cancel</button><br>
+    <label>Response:</label><br>
+    <textarea id="response" rows="5" cols="50" readonly></textarea>
+    <!-- Add Chart Container -->
+    <div id="chart_div" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
